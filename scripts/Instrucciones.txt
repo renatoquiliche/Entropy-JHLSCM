@@ -1,0 +1,9 @@
+El orden de los programas es el siguiente:
+
+1. bd_armado_final: hace todas las variables y otorga como producto una base final resultante de unir todas las bases individuales. Luego toca depurar la base para que solo queden las filas con observaciones completas a lo largo de todas las variables.
+
+2. DESCRIPTIVOS: aquï se depura la base como se mencionó anteriormente. 
+
+3. pca analysis_trabajado: aquí se hace el PCA, se obtiene los indicadores y se trabajan las interpretaciones. Este programa otorga como producto la base_estimaciones. Para estimar el modelo Logit o estimación de máxima entropía. CORRER PCA REVISION PAPER
+
+4. correr el dofile Regresiones para obtener los resultados finales
